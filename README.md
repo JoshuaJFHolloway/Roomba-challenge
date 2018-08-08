@@ -91,6 +91,12 @@ Creating the grid was interesting. I haven't created a grid of components before
 well. I was looking at libraries to create a grid for me at the beginning however I quickly realised
 that I would learn a lot more by just creating it myself.
 
+I am aware that the brief stated "A text based representation of the robot's position within the room" and
+I considered a visual representation of where Roomba is in the room to be an upgrade of that. I could have 
+very easily shown a text representation of Roomba's current coordinates as they are constantly updated in App.js's
+state as it moves. Its literally a x and y object that I could pass down to a string to display in game, but I just
+didn't think it added anything to the user experience beyond the visual representation I created.
+
 
 ## Things I am not happy with
 
