@@ -1,0 +1,701 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Grid
+    state={
+        Object {
+            "grid": Object {
+              "length": 2,
+              "width": 2,
+            },
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <table>
+        <tbody>
+                <tr>
+                        <td>
+                                <Tile
+                                        dirt={undefined}
+                                        roomba={undefined}
+                                        x={0}
+                                        y={1}
+                                />
+                        </td>
+                        <td>
+                                <Tile
+                                        dirt={undefined}
+                                        roomba={undefined}
+                                        x={1}
+                                        y={1}
+                                />
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                                <Tile
+                                        dirt={undefined}
+                                        roomba={undefined}
+                                        x={0}
+                                        y={0}
+                                />
+                        </td>
+                        <td>
+                                <Tile
+                                        dirt={undefined}
+                                        roomba={undefined}
+                                        x={1}
+                                        y={0}
+                                />
+                        </td>
+                </tr>
+                <tr />
+        </tbody>
+</table>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <tbody>
+          <tr>
+                    <td>
+                              <Tile
+                                        dirt={undefined}
+                                        roomba={undefined}
+                                        x={0}
+                                        y={1}
+                              />
+                    </td>
+                    <td>
+                              <Tile
+                                        dirt={undefined}
+                                        roomba={undefined}
+                                        x={1}
+                                        y={1}
+                              />
+                    </td>
+          </tr>
+          <tr>
+                    <td>
+                              <Tile
+                                        dirt={undefined}
+                                        roomba={undefined}
+                                        x={0}
+                                        y={0}
+                              />
+                    </td>
+                    <td>
+                              <Tile
+                                        dirt={undefined}
+                                        roomba={undefined}
+                                        x={1}
+                                        y={0}
+                              />
+                    </td>
+          </tr>
+          <tr />
+</tbody>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <tr>
+              <td>
+                            <Tile
+                                          dirt={undefined}
+                                          roomba={undefined}
+                                          x={0}
+                                          y={1}
+                            />
+              </td>
+              <td>
+                            <Tile
+                                          dirt={undefined}
+                                          roomba={undefined}
+                                          x={1}
+                                          y={1}
+                            />
+              </td>
+</tr>,
+            <tr>
+              <td>
+                            <Tile
+                                          dirt={undefined}
+                                          roomba={undefined}
+                                          x={0}
+                                          y={0}
+                            />
+              </td>
+              <td>
+                            <Tile
+                                          dirt={undefined}
+                                          roomba={undefined}
+                                          x={1}
+                                          y={0}
+                            />
+              </td>
+</tr>,
+            <tr />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  <Tile
+                                    dirt={undefined}
+                                    roomba={undefined}
+                                    x={0}
+                                    y={1}
+                  />
+</td>,
+                <td>
+                  <Tile
+                                    dirt={undefined}
+                                    roomba={undefined}
+                                    x={1}
+                                    y={1}
+                  />
+</td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Tile
+                    dirt={undefined}
+                    roomba={undefined}
+                    x={0}
+                    y={1}
+/>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": "73001",
+                  "nodeType": "class",
+                  "props": Object {
+                    "dirt": undefined,
+                    "roomba": undefined,
+                    "x": 0,
+                    "y": 1,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Tile
+                    dirt={undefined}
+                    roomba={undefined}
+                    x={1}
+                    y={1}
+/>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": "84982",
+                  "nodeType": "class",
+                  "props": Object {
+                    "dirt": undefined,
+                    "roomba": undefined,
+                    "x": 1,
+                    "y": 1,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  <Tile
+                                    dirt={undefined}
+                                    roomba={undefined}
+                                    x={0}
+                                    y={0}
+                  />
+</td>,
+                <td>
+                  <Tile
+                                    dirt={undefined}
+                                    roomba={undefined}
+                                    x={1}
+                                    y={0}
+                  />
+</td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Tile
+                    dirt={undefined}
+                    roomba={undefined}
+                    x={0}
+                    y={0}
+/>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": "76737",
+                  "nodeType": "class",
+                  "props": Object {
+                    "dirt": undefined,
+                    "roomba": undefined,
+                    "x": 0,
+                    "y": 0,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Tile
+                    dirt={undefined}
+                    roomba={undefined}
+                    x={1}
+                    y={0}
+/>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": "54868",
+                  "nodeType": "class",
+                  "props": Object {
+                    "dirt": undefined,
+                    "roomba": undefined,
+                    "x": 1,
+                    "y": 0,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "tr",
+          },
+        ],
+        "type": "tbody",
+      },
+      "type": "table",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <table>
+          <tbody>
+                    <tr>
+                              <td>
+                                        <Tile
+                                                  dirt={undefined}
+                                                  roomba={undefined}
+                                                  x={0}
+                                                  y={1}
+                                        />
+                              </td>
+                              <td>
+                                        <Tile
+                                                  dirt={undefined}
+                                                  roomba={undefined}
+                                                  x={1}
+                                                  y={1}
+                                        />
+                              </td>
+                    </tr>
+                    <tr>
+                              <td>
+                                        <Tile
+                                                  dirt={undefined}
+                                                  roomba={undefined}
+                                                  x={0}
+                                                  y={0}
+                                        />
+                              </td>
+                              <td>
+                                        <Tile
+                                                  dirt={undefined}
+                                                  roomba={undefined}
+                                                  x={1}
+                                                  y={0}
+                                        />
+                              </td>
+                    </tr>
+                    <tr />
+          </tbody>
+</table>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <tbody>
+            <tr>
+                        <td>
+                                    <Tile
+                                                dirt={undefined}
+                                                roomba={undefined}
+                                                x={0}
+                                                y={1}
+                                    />
+                        </td>
+                        <td>
+                                    <Tile
+                                                dirt={undefined}
+                                                roomba={undefined}
+                                                x={1}
+                                                y={1}
+                                    />
+                        </td>
+            </tr>
+            <tr>
+                        <td>
+                                    <Tile
+                                                dirt={undefined}
+                                                roomba={undefined}
+                                                x={0}
+                                                y={0}
+                                    />
+                        </td>
+                        <td>
+                                    <Tile
+                                                dirt={undefined}
+                                                roomba={undefined}
+                                                x={1}
+                                                y={0}
+                                    />
+                        </td>
+            </tr>
+            <tr />
+</tbody>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <tr>
+                <td>
+                                <Tile
+                                                dirt={undefined}
+                                                roomba={undefined}
+                                                x={0}
+                                                y={1}
+                                />
+                </td>
+                <td>
+                                <Tile
+                                                dirt={undefined}
+                                                roomba={undefined}
+                                                x={1}
+                                                y={1}
+                                />
+                </td>
+</tr>,
+              <tr>
+                <td>
+                                <Tile
+                                                dirt={undefined}
+                                                roomba={undefined}
+                                                x={0}
+                                                y={0}
+                                />
+                </td>
+                <td>
+                                <Tile
+                                                dirt={undefined}
+                                                roomba={undefined}
+                                                x={1}
+                                                y={0}
+                                />
+                </td>
+</tr>,
+              <tr />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    <Tile
+                                        dirt={undefined}
+                                        roomba={undefined}
+                                        x={0}
+                                        y={1}
+                    />
+</td>,
+                  <td>
+                    <Tile
+                                        dirt={undefined}
+                                        roomba={undefined}
+                                        x={1}
+                                        y={1}
+                    />
+</td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Tile
+                      dirt={undefined}
+                      roomba={undefined}
+                      x={0}
+                      y={1}
+/>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": "73001",
+                    "nodeType": "class",
+                    "props": Object {
+                      "dirt": undefined,
+                      "roomba": undefined,
+                      "x": 0,
+                      "y": 1,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Tile
+                      dirt={undefined}
+                      roomba={undefined}
+                      x={1}
+                      y={1}
+/>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": "84982",
+                    "nodeType": "class",
+                    "props": Object {
+                      "dirt": undefined,
+                      "roomba": undefined,
+                      "x": 1,
+                      "y": 1,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    <Tile
+                                        dirt={undefined}
+                                        roomba={undefined}
+                                        x={0}
+                                        y={0}
+                    />
+</td>,
+                  <td>
+                    <Tile
+                                        dirt={undefined}
+                                        roomba={undefined}
+                                        x={1}
+                                        y={0}
+                    />
+</td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Tile
+                      dirt={undefined}
+                      roomba={undefined}
+                      x={0}
+                      y={0}
+/>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": "76737",
+                    "nodeType": "class",
+                    "props": Object {
+                      "dirt": undefined,
+                      "roomba": undefined,
+                      "x": 0,
+                      "y": 0,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Tile
+                      dirt={undefined}
+                      roomba={undefined}
+                      x={1}
+                      y={0}
+/>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": "54868",
+                    "nodeType": "class",
+                    "props": Object {
+                      "dirt": undefined,
+                      "roomba": undefined,
+                      "x": 1,
+                      "y": 0,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "tr",
+            },
+          ],
+          "type": "tbody",
+        },
+        "type": "table",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
