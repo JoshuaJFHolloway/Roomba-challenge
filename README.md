@@ -97,6 +97,28 @@ very easily shown a text representation of Roomba's current coordinates as they 
 state as it moves. Its literally a x and y object that I could pass down to a string to display in game, but I just
 didn't think it added anything to the user experience beyond the visual representation I created.
 
+### Edge Cases
+
+I tried to cover edge cases with how the app functions. The inputs have maximum and minimum restrictions on them
+to prevent anyone from putting a dirt tile or roomba outside of the parameters of the room. You cannot press the submit
+button to progress to the grid until these inputs are fixed. Furthermore, once you press the submit button
+the inputs disappear. This was a conscious decision for two main reasons. Firstly, the inputs cannot be altered once in game
+to cause an error or mess up the grid. Secondly, it means that the interface is a lot cleaner. The grid page having only
+a grid and the buttons to move roomba is a much smarter and sleeker page than one that also has the inputs beneath still.
+
+### Why React?
+
+I chose React because I could envisage how the props being passed down to each tile would change with every
+click of a navigation button. With these props changing, it would mean that the individual tile components would refresh
+and that would allow it to re-run the functions to check whether its dirty or whether Roomba has arrived or been.
+
+There is a downside to my current functionality of the application and that is the fact that those aforementioned
+functions run each time the props change. This is both a positive and a negative. Positive because it gives the game
+greater flexibility in the future to add new features (such as random dirt patches appearing in game feature). But
+arguably it is a bit cumbersome for the Tile components to be making these checks if it isn't dirty from the beginning.
+If it isn't set as dirty from the off then it has no need to check whether it is dirty or whether Roomba has been and gone.
+This is something I will look at in the future.
+
 
 ## Things I am not happy with
 
