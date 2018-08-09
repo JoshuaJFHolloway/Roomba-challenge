@@ -1,9 +1,8 @@
-# Tray.io
+# Roomba
 
-**My task was to build a virtual Roomba**
+**My task was to build a virtual hoover**
 
-
-**What did they expect from me?**
+**Task specifications**
 
 You will write a web application that drives an imaginary robotic hoover (much like a Roomba) around an equally imaginary room based on:
 
@@ -40,17 +39,7 @@ The program:
     can be written in any client side programming language. We are looking for a Senior React/Redux Engineer so using these technologies is preferable (unless you think we are missing out on the next big thing of course)
     can make use of any existing open source libraries that don't directly address the problem statement (use your best judgement)
 
-Send us:
-
-    The full source code, including any code written which is not part of the normal program run (scripts, tests)
-    Clear instructions on how to obtain and run the program
-    Please provide any deliverables and instructions using a public Github (or similar) Repository as several people will need to inspect the solution
-
-Evaluation
-
-The point of the exercise is for us to see some of the code you wrote (and should be proud of) and how you approach the end user experience. We believe we can learn a lot from how you approach a small challenge like this and think it can be fun to write as well!
-
-We will especially consider:
+What will be especially considered:
 
     Actually solving the problem
     Overall user experience
