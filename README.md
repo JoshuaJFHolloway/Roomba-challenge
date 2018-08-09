@@ -36,7 +36,7 @@ The program:
 
     link to a running web page
     must run in all modern browsers
-    can be written in any client side programming language. We are looking for a Senior React/Redux Engineer so using these technologies is preferable (unless you think we are missing out on the next big thing of course)
+    can be written in any client side programming language.
     can make use of any existing open source libraries that don't directly address the problem statement (use your best judgement)
 
 What will be especially considered:
