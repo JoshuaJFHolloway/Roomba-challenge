@@ -7,12 +7,12 @@ class App extends Component {
         super();
         this.state = {
             grid: {
-                length: 0,
-                width: 0
+                width: 0,
+                length: 0
             },
             dirt: {
                 x: '',
-                y: '',
+                y: ''
             },
             roomba: {
                 x: 0,

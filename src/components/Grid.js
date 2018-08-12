@@ -29,6 +29,9 @@ class Grid extends Component {
         const length = grid.length;
         const arrayOfTiles = [];
 
+        // width = 3
+        // length = 6
+
         for (let i = 0; i < width; i++) {
             for (let b = 0; b < length; b++) {
                 arrayOfTiles.push(
