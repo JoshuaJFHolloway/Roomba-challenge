@@ -19,13 +19,13 @@ const RoombaInputs = (props) => {
                 </div>
                 <h3>Dirt Patch (x, y)</h3>
                 <div className='numberInput'>
-                    <input type="number" name="y" min="0" max={props.grid.length - 1} placeholder="Enter dirt y value" onChange={props.onChange}/>
                     <input type="number" name="x" min="0" max={props.grid.width - 1} placeholder="Enter dirt x value" onChange={props.onChange}/>
+                    <input type="number" name="y" min="0" max={props.grid.length - 1} placeholder="Enter dirt y value" onChange={props.onChange}/>
                 </div>
                 <h3>Roomba Start Tile (x, y)</h3>
                 <div className='numberInput'>
-                    <input type="number" name="y" min="0" max={props.grid.length - 1} placeholder="Enter roomba y value" onChange={props.onChange} required/>
                     <input type="number" name="x" min="0" max={props.grid.width - 1} placeholder="Enter roomba x value" onChange={props.onChange} required/>
+                    <input type="number" name="y" min="0" max={props.grid.length - 1} placeholder="Enter roomba y value" onChange={props.onChange} required/>
                 </div>
                 <input className='submitButton' type="submit" value="Submit values"/>
             </form>
