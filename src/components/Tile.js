@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import CleanTile from '../images/CleanTile.jpg';
 import DirtyTile from '../images/DirtyTile.jpg';
 
-
 class Tile extends Component {
     constructor() {
         super();

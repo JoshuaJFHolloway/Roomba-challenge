@@ -14,8 +14,8 @@ const RoombaInputs = (props) => {
             <form onSubmit={props.onSubmit}>
                 <h3>Room Dimensions</h3>
                 <div className='numberInput'>
-                    <input type="number" name="length" min="1" placeholder="Enter room width" onChange={props.onChange} required/>
-                    <input type="number" name="width" min="1" placeholder="Enter room length" onChange={props.onChange} required/>
+                    <input type="number" name="width" min="1" placeholder="Enter grid width" onChange={props.onChange} required/>
+                    <input type="number" name="length" min="1" placeholder="Enter grid length" onChange={props.onChange} required/>
                 </div>
                 <h3>Dirt Patch (x, y)</h3>
                 <div className='numberInput'>

@@ -3,24 +3,12 @@ import Tile from './Tile';
 
 class Grid extends Component {
 
-    splitUpTiles = (a, l) => {
-        if (a.length === 0) return [];
-        else return [a.slice(0, l)].concat(this.splitUpTiles(a.slice(l), l));
-    };
-
-    createColumns = (array) => {
-        let columnsArray = [];
-        const columns = this.splitUpTiles(array, this.props.state.grid.length).reverse();
-
-        for(let i = 0; i <= columns.length; i++) {
-            columnsArray.push(
-                <tr>
-                    {columns[i]}
-                </tr>
-            )
-        }
-
-        return columnsArray;
+    printGrid = (array) => {
+        return array.map((row) => {
+            return <tr>
+                {row}
+            </tr>
+        });
     };
 
     render() {
@@ -28,13 +16,13 @@ class Grid extends Component {
         const width = grid.width;
         const length = grid.length;
         const arrayOfTiles = [];
+        let count = 0;
 
-        // width = 3
-        // length = 6
+        for (let i = length; i >= 0; i--) {
+            const row = [];
 
-        for (let i = 0; i < width; i++) {
-            for (let b = 0; b < length; b++) {
-                arrayOfTiles.push(
+            for (let b = 0; b < width; b++) {
+                row.push(
                         <td>
                             <Tile
                                 x={b}
@@ -44,15 +32,19 @@ class Grid extends Component {
                                 key={Math.floor((Math.random() * 100000) + 1)}
                             />
                         </td>
-                )
+                );
+
+                count++;
             }
+
+            arrayOfTiles.push(row);
         }
 
         return (
             <div>
                 <table>
                     <tbody>
-                        {this.createColumns(arrayOfTiles)}
+                        {this.printGrid(arrayOfTiles)}
                     </tbody>
                 </table>
             </div>

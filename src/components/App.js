@@ -23,7 +23,7 @@ class App extends Component {
     }
 
     coordinatesCheckIfMaxY = (y) => {
-        return y !== this.state.grid.length;
+        return y <= this.state.grid.length;
     };
 
     coordinatesCheckIfMaxX = (x) => {
@@ -76,7 +76,7 @@ class App extends Component {
         const dirt = this.state.dirt;
         const roomba = this.state.roomba;
 
-        if(placeholder.includes("room")) {
+        if(placeholder.includes("grid")) {
             grid[name] = parseInt(value, 10);
 
             this.setState({
