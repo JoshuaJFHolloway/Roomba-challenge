@@ -23,7 +23,7 @@ class App extends Component {
     }
 
     coordinatesCheckIfMaxY = (y) => {
-        return y <= this.state.grid.length;
+        return y !== this.state.grid.length;
     };
 
     coordinatesCheckIfMaxX = (x) => {

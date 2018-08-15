@@ -12,13 +12,13 @@ class Grid extends Component {
     };
 
     render() {
+        let count = Math.floor((Math.random() * 100000) + 1);
         const grid = this.props.state.grid;
         const width = grid.width;
         const length = grid.length;
         const arrayOfTiles = [];
-        let count = 0;
 
-        for (let i = length; i >= 0; i--) {
+        for (let i = length - 1; i >= 0; i--) {
             const row = [];
 
             for (let b = 0; b < width; b++) {
@@ -29,7 +29,7 @@ class Grid extends Component {
                                 y={i}
                                 dirt={this.props.state.dirt}
                                 roomba={this.props.state.roomba}
-                                key={Math.floor((Math.random() * 100000) + 1)}
+                                key={count}
                             />
                         </td>
                 );
