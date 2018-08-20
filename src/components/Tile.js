@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CleanTile from '../images/CleanTile.jpg';
 import DirtyTile from '../images/DirtyTile.jpg';
+import Roomba from '../images/Roomba.jpeg';
 
 class Tile extends Component {
     constructor() {
@@ -48,20 +49,35 @@ class Tile extends Component {
     render() {
 
         const roomba = this.state.roomba;
-        let roombaStyle;
 
-        roomba === true ? roombaStyle = { borderColor: 'Red', borderStyle: 'solid'} : roombaStyle = null;
-
-        return this.state.dirt && !roomba ? (
-
+        if (this.state.dirt && !roomba) {
+            return (
                 <div>
-                    <img src={DirtyTile} width="100px" alt="dirty looking flooring tile" style={roombaStyle}/>
+                    <img src={DirtyTile} width="100px" alt="dirty looking flooring tile"/>
                 </div>
-            ) : (
+            );
+        }
+
+        if (roomba) {
+            return (
                 <div>
-                    <img src={CleanTile} width="100px" alt="clean looking flooring tile" style={roombaStyle}/>
+                    <div className="parentOfCleanTileAndRoomba">
+                        <img src={CleanTile} width="100px" alt="clean looking flooring tile" className="cleanTile"/>
+                        <img src={Roomba} width="100px" alt="Roomba" className="roombaOnCleanTile"/>
+                    </div>
                 </div>
             )
+        }
+
+        else {
+            return (
+                <div>
+                    <img src={CleanTile} width="100px" alt="clean looking flooring tile"/>
+                </div>
+            )
+
+        }
+
     }
 }
 
