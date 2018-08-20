@@ -49,14 +49,14 @@ table {
     margin-right:auto;
 }
 
-.parentOfCleanTileAndRoomba {
+.parentOfCleanTileWithImageInside {
     position: relative;
 }
 .cleanTile {
     position: absolute;
     bottom:1px
 }
-.roombaOnCleanTile {
+.imageOnTile {
     position: relative;
     height: 90px;
     width: 90px;
