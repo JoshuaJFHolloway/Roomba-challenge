@@ -48,3 +48,17 @@ table {
     margin-left:auto;
     margin-right:auto;
 }
+
+.parentOfCleanTileAndRoomba {
+    position: relative;
+}
+.cleanTile {
+    position: absolute;
+    bottom:1px
+}
+.roombaOnCleanTile {
+    position: relative;
+    height: 90px;
+    width: 90px;
+    left: 5px;
+}
