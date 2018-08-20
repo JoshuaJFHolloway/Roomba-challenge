@@ -52,8 +52,11 @@ class Tile extends Component {
 
         if (this.state.dirt && !roomba) {
             return (
-                <div>
-                    <img src={DirtyTile} width="100px" alt="dirty looking flooring tile"/>
+                <div className="parentOfCleanTileWithImageInside">
+                    <div>
+                        <img src={CleanTile} width="100px" alt="clean looking flooring tile" className="cleanTile"/>
+                        <img src={DirtyTile} width="100px" alt="dirty looking flooring tile" className="imageOnTile"/>
+                    </div>
                 </div>
             );
         }
@@ -61,9 +64,9 @@ class Tile extends Component {
         if (roomba) {
             return (
                 <div>
-                    <div className="parentOfCleanTileAndRoomba">
+                    <div className="parentOfCleanTileWithImageInside">
                         <img src={CleanTile} width="100px" alt="clean looking flooring tile" className="cleanTile"/>
-                        <img src={Roomba} width="100px" alt="Roomba" className="roombaOnCleanTile"/>
+                        <img src={Roomba} width="100px" alt="Roomba" className="imageOnTile"/>
                     </div>
                 </div>
             )
