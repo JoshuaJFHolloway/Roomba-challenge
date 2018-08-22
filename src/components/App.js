@@ -76,21 +76,21 @@ class App extends Component {
         const dirt = this.state.dirt;
         const roomba = this.state.roomba;
 
-        if(placeholder.includes("grid")) {
+        if(placeholder.includes("Grid")) {
             grid[name] = parseInt(value, 10);
 
             this.setState({
                 grid
             });
         }
-        if(placeholder.includes("dirt")) {
+        if(placeholder.includes("Dirt")) {
             dirt[name] = parseInt(value, 10);
 
             this.setState({
                 dirt
             });
         }
-        if(placeholder.includes("roomba")) {
+        if(placeholder.includes("Roomba")) {
             roomba[name] = parseInt(value, 10);
 
             this.setState({
@@ -117,7 +117,9 @@ class App extends Component {
     render() {
         return (
             <div>
-                <h1>Roomba</h1>
+                <div className="header">
+                    <span>Roomba</span>
+                </div>
                 {this.state.submitButtonClicked ?
                     <CompassAndGridWrapper
                         appState={this.state}
