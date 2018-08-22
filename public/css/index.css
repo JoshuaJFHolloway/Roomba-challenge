@@ -1,38 +1,72 @@
-h1 {
-    font-family: 'Roboto';
-    text-align: center;
-    padding-bottom: 20px;
+body {
+    background-image: url("https://image.freepik.com/free-photo/grey-carpet-for-background_1339-7412.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    margin-top: 40px;
+    margin-bottom: 40px
 }
 
 h3 {
     font-family: 'Roboto';
-    margin-left: 100px;
+    margin-left: 70px; //
 }
 
 h4 {
     font-family: 'Roboto';
-    margin-left: 100px;
+    margin-left: 70px; //
 }
 
 h5 {
     font-family: 'Roboto';
 }
 
+.inline {
+    display: inline-table;
+    padding-left:5px;
+}
+
 .numberInput {
-    margin-left: 100px;
+    margin-left: 70px; //
 }
 
 .submitButton {
-    margin-left: 180px;
-    margin-top: 20px;
+    top: 85%;
+    left: 50%;
+    margin: -100px 0 0 -75px;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: rgba(255,255,255,0.1);
+    border-style: none;
 }
 
-form {
-    margin-top: 40px;
+.submitButtonImage {
+    top: 67.5%;
+    left: 50%;
+    margin: -100px 0 0 -75px;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.header {
+    font-family: 'Swistblnk Monthoers';
+    font-size: 80px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .howToPlay {
-    margin-left: 120px;
+    margin-left: 70px; //
 }
 
 .compassButtons {
@@ -44,21 +78,24 @@ form {
     text-align: center;
 }
 
-table {
-    margin-left:auto;
-    margin-right:auto;
-}
-
 .parentOfCleanTileWithImageInside {
     position: relative;
 }
+
 .cleanTile {
     position: absolute;
-    bottom:1px
+    bottom: 1px
 }
+
 .imageOnTile {
     position: relative;
     height: 90px;
     width: 90px;
     left: 5px;
+}
+
+.alignPageContent {
+    margin-left: 190px;
+    width: 900px;
+    background: rgba(255,255,255,0.6);
 }
