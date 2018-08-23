@@ -180,8 +180,8 @@ This is the landing page where you insert your room, dirt, and roomba inputs.
 <a href="https://ibb.co/b4Ga5z"><img src="https://preview.ibb.co/nFYNkz/Screen_Shot_2018_08_23_at_10_02_19.png" alt="Screen_Shot_2018_08_23_at_10_02_19" border="0"></a>
 
 After pressing the submit button the page reloads to show you the grid you created, along with
-the dirt patch you inserted. Also Roomba is symbolised by the red outline on one of
-the tiles. You use the north south east west buttons at the top of the grid to
+the dirt patch you inserted. Also Roomba is symbolised by the Hoover image.
+You use the north south east west buttons at the top of the grid to
 move Roomba. Once you move Roomba to the dirty square it hoovers it up and it
 becomes a nice white tile like the rest of the grid.
 
