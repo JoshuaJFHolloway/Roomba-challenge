@@ -177,7 +177,7 @@ Below you can see a screenshot of the application once loaded.
 
 This is the landing page where you insert your room, dirt, and roomba inputs.
 
-<a href="https://ibb.co/mtUA89"><img src="https://preview.ibb.co/nvDsMU/Screen_Shot_2018_08_08_at_23_40_13.png" alt="Screen_Shot_2018_08_08_at_23_40_13" border="0"></a>
+<a href="https://ibb.co/mLvMCe"><img src="https://preview.ibb.co/knLose/Screen_Shot_2018_08_23_at_09_51_08.png" alt="Screen_Shot_2018_08_23_at_09_51_08" border="0"></a>
 
 After pressing the submit button the page reloads to show you the grid you created, along with
 the dirt patch you inserted. Also Roomba is symbolised by the red outline on one of
@@ -185,12 +185,7 @@ the tiles. You use the north south east west buttons at the top of the grid to
 move Roomba. Once you move Roomba to the dirty square it hoovers it up and it
 becomes a nice white tile like the rest of the grid.
 
-<a href="https://ibb.co/cHjco9"><img src="https://preview.ibb.co/kjFTvp/Screen_Shot_2018_08_08_at_23_41_28.png" alt="Screen_Shot_2018_08_08_at_23_41_28" border="0"></a>
-
-This next image shows the grid once Roomba is moved to the dirty tile. It also
-shows the text at the bottom confirming that you have cleaned that tile.
-
-<a href="https://ibb.co/bT4A89"><img src="https://preview.ibb.co/jwb1Fp/Screen_Shot_2018_08_08_at_23_46_47.png" alt="Screen_Shot_2018_08_08_at_23_46_47" border="0"></a>
+<a href="https://ibb.co/doR05z"><img src="https://preview.ibb.co/eM1YQz/Screen_Shot_2018_08_23_at_09_51_49.png" alt="Screen_Shot_2018_08_23_at_09_51_49" border="0"></a>
 
 And this last image is of the tests being ran.
 
