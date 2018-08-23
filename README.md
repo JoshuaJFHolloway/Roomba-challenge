@@ -185,7 +185,7 @@ the tiles. You use the north south east west buttons at the top of the grid to
 move Roomba. Once you move Roomba to the dirty square it hoovers it up and it
 becomes a nice white tile like the rest of the grid.
 
-<a href="https://ibb.co/doR05z"><img src="https://preview.ibb.co/eM1YQz/Screen_Shot_2018_08_23_at_09_51_49.png" alt="Screen_Shot_2018_08_23_at_09_51_49" border="0"></a>
+<a href="https://ibb.co/b4Ga5z"><img src="https://preview.ibb.co/nFYNkz/Screen_Shot_2018_08_23_at_10_02_19.png" alt="Screen_Shot_2018_08_23_at_10_02_19" border="0"></a>
 
 And this last image is of the tests being ran.
 
