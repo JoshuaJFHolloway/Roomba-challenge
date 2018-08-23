@@ -55,7 +55,7 @@ React JS, Jest, Sinon, Enzyme.
 
 ## Installation
 
-- Run 'git clone https://github.com/JoshuaJFHolloway/Roomba' in your terminal
+- Run 'git clone https://github.com/JoshuaJFHolloway/Roomba-challenge' in your terminal
 
 
 ## Usage
