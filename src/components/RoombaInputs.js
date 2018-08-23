@@ -8,7 +8,7 @@ const RoombaInputs = (props) => {
                 <div className="inline">
                     <h3>How to play</h3>
                     <div className='howToPlay'>
-                        <h5>1. Create your game below</h5>
+                        <h5>1. Create your game to the right</h5>
                         <h5>2. Click the Hoover logo when you are ready to play</h5>
                         <h5>3. Grid will appear with direction buttons above to move Roomba</h5>
                         <h5>4. Navigate Roomba into the dirt tile you placed</h5>
